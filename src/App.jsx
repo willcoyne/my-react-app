@@ -22,6 +22,7 @@ export default function Board() {
     } else {
       nextSquares[i] = 'O';
     }
+    onPlay(nextSquares);
     setSquares(nextSquares);
     setXIsNext(!xIsNext);
   }
